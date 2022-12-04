@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: 'Mukta', sans-serif;
+}
+ul 
+{
+    list-style: none;
+}
+a 
+{
+    text-decoration: none;
+    color: #255995;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-weight: 600;
+}
+.flex 
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ai 
+{
+    align-items: center;
+}
+
+.top 
+{
+    background: red;
+    line-height: 45px;
+}
+.con 
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.top_left a 
+{
+    color: #fff;
+    padding: 0px 10px;
+}
+.top_right ul li 
+{
+    display: inline-block;
+}
+.top_right ul li a 
+
+{
+    color: #000;
+    background: #fff;
+    width: 30px; height: 30px;
+    display: block;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 30px;
+}
+header 
+{
+    padding: 20px 0;
+}
+.w-100 
+{
+    width: 100%;
+}
+.header_left 
+{
+    width: 30%;
+}
+.header_right
+{
+    width: 65%;
+}
+nav 
+{
+    background: #255995;
+}
+nav ul li 
+{
+    display: inline-block;
+}
+nav ul li a 
+{
+    display: block;
+    color: #fff;
+    padding:8px 15px;
+}
+.ads 
+{
+    margin: 15px auto;
+    padding: 10px;
+    background: #ccc;
+}
+.banner article
+{
+    background: rgb(236, 229, 229);
+    padding: 20px;
+    text-align: center;
+    margin: 15px 0;
+}
+.banner article h2 
+{
+    font-size: 54px;
+}
+.banner article h2 a 
+{
+    color: #255995;
+}
+.block1_right
+{
+    width: 26%;
+}
+.block1_left
+{
+    width: 70%;
+}
+.block1_left_top
+{
+    background: #255995;
+    color: #fff;
+    padding: 20px;
+}
+.block1_left_top_img
+{
+    width: 45%;
+}
+.block1_left_top_content
+{
+    width: 50%;
+}
+.block1_left_top_content h4 a 
+{
+    font-size: 27px;
+    color: #fff;
+}
+.block1_left_bottom
+{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+.small
+{
+    width: 24%;
+}
+.block2_box
+{
+    width: 32%;
+    
+}
+.block2_box h4 
+{
+    font-size: 25px;
+    padding: 15px 0;
+}
+.b 
+{
+    border: 1px solid #ccc;
+    padding: 10px ;
+}
+
+footer 
+{
+    background: #255995;
+    padding: 20px;
+    color: #fff;
+}
+.copyright
+{
+    background: red;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
